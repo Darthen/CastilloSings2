@@ -47,6 +47,9 @@
 	@include outer-container;
 	display: inline-block;
 	text-align: left;
+	@include media(max-width 682px) {
+		margin: auto 10px;
+	}
 }
 
 .post-title {
@@ -55,4 +58,11 @@
 
 .post-text {
 	@include span-columns(8 of 12);
+}
+
+.post-title,
+.post-text {
+	@include media(max-width 682px) {
+		@include span-columns(12);
+	}
 }

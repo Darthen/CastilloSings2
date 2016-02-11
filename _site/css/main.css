@@ -5813,7 +5813,8 @@ html {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
+      width: 100%;
+      margin: 0 10px; }
       .travel:last-child,
       .love:last-child,
       .find:last-child {
@@ -5967,6 +5968,9 @@ html {
     clear: both;
     content: "";
     display: table; }
+  @media screen and (max-width: 682px) {
+    .post-content {
+      margin: auto 10px; } }
 
 .post-title {
   float: left;
@@ -5983,6 +5987,17 @@ html {
   width: 65.88078%; }
   .post-text:last-child {
     margin-right: 0; }
+
+@media screen and (max-width: 682px) {
+  .post-title,
+  .post-text {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .post-title:last-child,
+    .post-text:last-child {
+      margin-right: 0; } }
 
 #mailto {
   margin-left: 5px;
