@@ -21,3 +21,6 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Yes Future !
+future: true

@@ -11,7 +11,7 @@
   background-size: cover;
   background-color: beige;
   border: 1px solid $base-border-color;
-  cursor: pointer;
+  //cursor: pointer;
   height: $hover-tile-height;
   margin-bottom: $base-line-height;
   
@@ -40,8 +40,15 @@
   .hover-tile-hidden {
     background: transparentize(#000, 0.5);
 
+		a {
+			display: block;
+			height: 100%;
+			width: 100%;
+			color: white;
+		}
+
     p {
-      color: transparentize(#fff, 0.3);
+      color: transparentize(#fff, 0.1);
       line-height: $base-line-height;
     }
 
@@ -50,3 +57,4 @@
     }
   }
 }
+

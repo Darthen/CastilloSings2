@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+#time {
+	font-weight: 100;
+	font-size: 0.7em;
+}
+
+#icon {
+  font-family: "PT Sans", Arial, sans-serif;
+  color: #fff;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: table;
+  width: 70px;
+  height: 70px;
+  margin: 0 0 10px;
+  background: #00b49b;
+  border: 4px solid #fff;
+  border-radius: 15px;
+  box-shadow: 0px 2px #008d72 inset, 0px 1px #b7262d;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    height: 50%;
+    width: 100%;
+    background: rgba(0,0,0,.1);
+  }
+  span:nth-child(1) {
+    position: absolute;
+    top: 2px;
+    left: 5px;
+  }
+  span:nth-child(2) {
+    font-weight: 600;
+    font-size: 3em;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 10px;
+  }
+}
+
+.post-content {
+	@include outer-container;
+	display: inline-block;
+	text-align: left;
+}
+
+.post-title {
+	@include span-columns(3 of 12);
+}
+
+.post-text {
+	@include span-columns(8 of 12);
+}

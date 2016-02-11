@@ -1,14 +1,18 @@
 <section id="projects" class="content-section text-center">
 	<h3>Main Projects</h3>
 	{% for project in site.data.projects %}
-	<div class="hover-tile-outer"{% if project.img %} style="background-image: url({{site.baseurl}}/img/{{ project.img }})"{% endif %}>
+	<div class="hover-tile-outer" {% if project.img %} style="background-image: url({{site.baseurl}}/img/{{ project.img }})" {% endif %}>
 		<div class="hover-tile-container">
 			<div class="hover-tile hover-tile-visible"></div>
 			<div class="hover-tile hover-tile-hidden">
+				<a id="project-link" href="{{ project.link }}">
 				<h4>{{ project.name }}</h4>
 				<p>{{ project.description }}</p>
+				</a>
 			</div>
 		</div>
+
 	</div>
 	{% endfor %}
+
 </section>

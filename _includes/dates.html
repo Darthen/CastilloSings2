@@ -1,0 +1,19 @@
+<section id="dates" class="content-section text-center">
+	<div class="dates-section">
+
+		<h1>Upcoming Concert dates</h1>
+		{% for post in site.posts limit: 5 %}
+		<div class="post-content">
+			<div id="icon">
+				<span>{{ post.date | date: '%B'}}</span>
+				<span>{{ post.date | date: '%-d' }}</span>
+			</div>
+			<h4 class="post-title">{{ post.title }} {% if post.doors %}<br><span id="time">Doors: {{ post.doors }}</span>{% endif %}</h4>
+			<article class="post-text" >
+				{{ post.content }}
+			</article>
+		</div>
+		{% endfor %}
+
+	</div>
+</section>
