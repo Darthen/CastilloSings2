@@ -1,0 +1,26 @@
+---
+---
+
+@import "variables";
+@import "bootstrap.min";
+@import "grayscale";
+
+
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+@import "lessons";
+@import "projects";
+@import "contact";
+
+
+#face {
+	background-image: url(../img/BusinessMe.jpg);
+	border-radius: 50%;
+	background-size: 150px;
+	@include size(150px);
+	background-repeat: no-repeat;
+	margin: 0 auto 20px;;
+
+}
+

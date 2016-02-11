@@ -1,0 +1,23 @@
+# Site settings
+title: Castillo Sings
+email: jazzvocalistme@gmail.com
+url: https://www.castillosings.com
+description: "I am a jazz singer living in Berlin since August 2012. I studied music at the Bern University of the Arts with jazz singing as main instrument under the guidance of two wonderful ladies of Jazz: Sandy Patton and Efrat Alony. As second instrument I had the priviledge to practice classical singing with the cantatrice Denise Bregnard. I am currently performing with a few bands in Berlin. I would love to see you at the next gig!"
+
+
+  
+
+# Footer settings
+footer: Castillo Sings
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/jazzvocalistme
+  - title: facebook
+    url: https://www.facebook.com/CastilloSingingTeacher/
+  
+
+# Build settings
+markdown: kramdown
+permalink: pretty
