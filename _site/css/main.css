@@ -5940,14 +5940,6 @@ html {
     margin-left: 17.05961%; }
     .audio-wrapper h5:last-child {
       margin-right: 0; }
-    @media screen and (max-width: 682px) {
-      .audio-wrapper h5 {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%; }
-        .audio-wrapper h5:last-child {
-          margin-right: 0; } }
 
 .audioplayer {
   float: left;
@@ -5980,14 +5972,6 @@ html {
   border-radius: 2px; }
   .audioplayer:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 682px) {
-    .audioplayer {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%; }
-      .audioplayer:last-child {
-        margin-right: 0; } }
 
 .audioplayer-mini {
   width: 2.5em;
@@ -6358,7 +6342,8 @@ html {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 23.23176%; }
+  width: 23.23176%;
+  margin-top: 9px; }
   .post-title:last-child {
     margin-right: 0; }
 

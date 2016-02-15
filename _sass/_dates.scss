@@ -54,6 +54,7 @@
 
 .post-title {
 	@include span-columns(3 of 12);
+	margin-top: 9px;
 }
 
 .post-text {
