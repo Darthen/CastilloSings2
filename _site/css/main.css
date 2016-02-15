@@ -5883,13 +5883,18 @@ html {
   background-size: cover;
   background-color: beige;
   border: 1px solid #9f9f9f;
-  height: 13em;
+  height: 22em;
   margin-bottom: 2.5em; }
   @media screen and (min-width: 40em) {
     .hover-tile-outer {
       width: 40%; } }
+  .hover-tile-outer #project-link-inner {
+    padding-bottom: 20px;
+    text-decoration: underline;
+    font-size: 1.4em;
+    color: dodgerblue; }
   .hover-tile-outer .hover-tile-container {
-    height: 13em;
+    height: 22em;
     overflow: hidden; }
   .hover-tile-outer .hover-tile-container:hover > .hover-tile {
     -webkit-transform: translate(0, -100%);

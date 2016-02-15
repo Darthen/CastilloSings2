@@ -2,7 +2,7 @@
   $base-border-color: #9f9f9f !default;
   $base-line-height: 2.5em !default;
   $medium-screen: em(640) !default;
-  $hover-tile-height: 13em;
+  $hover-tile-height: 22em;
   $base-spacing: 1.5em;
 	display: inline-block;
 	border-radius: 10px;
@@ -17,6 +17,13 @@
   @include media($medium-screen) {
     width: 40%;
   }
+
+	#project-link-inner {
+		padding-bottom: 20px;
+		text-decoration: underline;
+		font-size: 1.4em;
+		color: dodgerblue;
+	}
 
   .hover-tile-container {
     height: $hover-tile-height;
