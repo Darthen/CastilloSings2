@@ -1,0 +1,14 @@
+<section id="listen" class="content-section">
+	<div class="audio-wrapper">
+		{% for audio in site.data.audio %}
+		<h5 class="player-title">{{ audio.title }}</h5>
+		<audio class="{{ audio.file }}" src="/audio/{{ audio.file }}.mp3" preload="auto" controls></audio>
+		<script src="/js/audioplayer.js"></script>
+		<script>
+			$(function () {
+				$('.{{ audio.file }}').audioPlayer();
+			});
+		</script>
+		{% endfor %}
+	</div>
+</section>

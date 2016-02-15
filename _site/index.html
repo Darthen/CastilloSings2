@@ -15,6 +15,10 @@
     <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
+    <script src="/js/jquery.js"></script>
+
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -54,6 +58,10 @@
 					<a class="page-scroll" href="#projects">Projects</a>
 				</li>
 				<li>
+					<a class="page-scroll" href="#listen">Listen</a>
+				</li>
+
+				<li>
 					<a class="page-scroll" href="#dates">Dates</a>
 				</li>
 				<li>
@@ -65,6 +73,7 @@
 	</div>
 	<!-- /.container -->
 </nav>
+
         <!-- Intro Header -->
     <header class="intro">
         <div class="intro-body">
@@ -201,6 +210,57 @@
 
 </section>
 
+    <section id="listen" class="content-section">
+	<div class="audio-wrapper">
+
+		<h5 class="player-title">Savoy Satellites Quartet - Is you is or is you ain't?</h5>
+		<audio class="IsYouIs" src="/audio/IsYouIs.mp3" preload="auto" controls></audio>
+		<script src="/js/audioplayer.js"></script>
+		<script>
+			$(function () {
+				$('.IsYouIs').audioPlayer();
+			});
+		</script>
+
+		<h5 class="player-title">Savoy Satellites Quartet - You always hurt the one you love</h5>
+		<audio class="YouAlwaysHurt" src="/audio/YouAlwaysHurt.mp3" preload="auto" controls></audio>
+		<script src="/js/audioplayer.js"></script>
+		<script>
+			$(function () {
+				$('.YouAlwaysHurt').audioPlayer();
+			});
+		</script>
+
+		<h5 class="player-title">Savoy Satellites Quartet - Straighten up and fly right</h5>
+		<audio class="StraightenUp" src="/audio/StraightenUp.mp3" preload="auto" controls></audio>
+		<script src="/js/audioplayer.js"></script>
+		<script>
+			$(function () {
+				$('.StraightenUp').audioPlayer();
+			});
+		</script>
+
+		<h5 class="player-title">Savoy Satellites Quartet - The Song is ended</h5>
+		<audio class="TheSongHasEnded" src="/audio/TheSongHasEnded.mp3" preload="auto" controls></audio>
+		<script src="/js/audioplayer.js"></script>
+		<script>
+			$(function () {
+				$('.TheSongHasEnded').audioPlayer();
+			});
+		</script>
+
+		<h5 class="player-title">Savoy Satellites Quartet - Blues In the night</h5>
+		<audio class="Bluesinthenight" src="/audio/Bluesinthenight.mp3" preload="auto" controls></audio>
+		<script src="/js/audioplayer.js"></script>
+		<script>
+			$(function () {
+				$('.Bluesinthenight').audioPlayer();
+			});
+		</script>
+
+	</div>
+</section>
+
     <section id="dates" class="content-section text-center">
 	<div class="dates-section">
 
@@ -298,7 +358,7 @@ The big formation of the Savoy Satellites is the perfect fit for this spacious b
     </footer>
 
      <!-- jQuery Version 1.11.0 -->
-    <script src="/js/jquery.js"></script>
+
 
     <!-- Bootstrap Core JavaScript -->
     <script src="/js/bootstrap.min.js"></script>
@@ -311,5 +371,10 @@ The big formation of the Savoy Satellites is the perfect fit for this spacious b
 
     <!-- Custom Theme JavaScript -->
     <script src="/js/grayscale.js"></script>
+
+    <!-- Audioplayer -->
+
+
+
     </body>
 </html>

@@ -1,17 +1,16 @@
 .hover-tile-outer {
   $base-border-color: #9f9f9f !default;
-  $base-line-height: 1.5em !default;
+  $base-line-height: 2.5em !default;
   $medium-screen: em(640) !default;
   $hover-tile-height: 13em;
   $base-spacing: 1.5em;
 	display: inline-block;
 	border-radius: 10px;
 	margin: 10px;
-  background-position: top;
+  background-position: center;
   background-size: cover;
   background-color: beige;
   border: 1px solid $base-border-color;
-  //cursor: pointer;
   height: $hover-tile-height;
   margin-bottom: $base-line-height;
   
