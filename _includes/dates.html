@@ -5,7 +5,7 @@
 		{% for post in site.posts reversed limit: 5 %}
 				<div class="post-content">
 					<div id="icon">
-						<span>{{ post.date | date: '%B'}}</span>
+						<span>{{ post.date | date: '%b'}}</span>
 						<span>{{ post.date | date: '%-d' }}</span>
 					</div>
 					<h4 class="post-title">{{ post.title }} {% if post.doors %}<br><span id="time">Doors: {{ post.doors }}</span>{% endif %}</h4>
